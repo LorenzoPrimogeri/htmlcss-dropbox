@@ -1,0 +1,69 @@
+
+/* utilies */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.btn{
+    padding: 10px 20px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.t-white{
+    color:white;
+}
+.t-black{
+    color:black;
+}
+.b-white{
+    background-color:white;
+}
+.b-black{
+    background-color:black;
+}
+.b-blue{
+    background-color: #0061ff;
+}
+
+
+/* content */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100vw;
+    z-index: 23;
+    line-height: 100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+header img{
+    vertical-align: middle;
+    padding: 0px 20px 0px 20px;
+}
+a{
+    text-decoration: none;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    color: black;
+    padding: 20px;
+}
+header ul li a.btn{
+    margin-right: 40px;
+}
+a:hover{
+    text-decoration: underline;
+}
