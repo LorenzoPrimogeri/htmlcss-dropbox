@@ -8,6 +8,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.conteiner{
+    width: 70vw;
+    margin: auto;
+}
 .btn{
     padding: 10px 20px;
 }
@@ -20,6 +24,9 @@ a:hover{
 .right{
     float: right;
 }
+.relative{
+    position: relative;
+ }
 .t-white{
     color:white;
 }
@@ -48,6 +55,7 @@ a:hover{
 .w-100{
     width: 100%;
 }
+
 /* content */
 *{
     margin: 0;
@@ -55,6 +63,7 @@ a:hover{
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/* start header-section */
 header{
     background-color: white ;
     width: 100vw;
@@ -79,17 +88,13 @@ header ul li a{
 header ul li a.btn{
     margin-right: 40px;
 }
-.relative{
-   position: relative;
-}
+/* finish header-section */
+/* start Jumbotron-section */
 .jumbotron{
     padding-top: 150px;
-    width: 70vw;
-    margin: auto;
 }
 .jumbotron h1{
-    font-size: 78px;
-  
+    font-size: 78px; 
 }
 .jumbotron p{
     margin-bottom: 40px;
@@ -111,3 +116,7 @@ header ul li a.btn{
     left: 40%;
     top: 45%;
 }
+/* finish Jumbotron-section */
+/* start tria-section */
+.trial
+/* finish tria-section */
