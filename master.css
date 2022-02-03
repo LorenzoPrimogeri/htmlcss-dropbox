@@ -4,10 +4,15 @@
     content: "";
     display: table;
     clear: both;
-
+}
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 .btn{
     padding: 10px 20px;
+}
+a:hover{
+    text-decoration: underline;
 }
 .left{
     float: left;
@@ -30,8 +35,13 @@
 .b-blue{
     background-color: #0061ff;
 }
+.b-cyan{
+    background-color: hsl(207deg 52% 81%);
+}
 
-
+.w-100{
+    width: 100%;
+}
 /* content */
 *{
     margin: 0;
@@ -40,12 +50,13 @@
     font-family: sans-serif;
 }
 header{
+    background-color: white ;
     width: 100vw;
     z-index: 23;
     line-height: 100px;
     position: fixed;
-    left: 0px;
-    top: 0px;
+
+  
 }
 header img{
     vertical-align: middle;
@@ -64,6 +75,4 @@ header ul li a{
 header ul li a.btn{
     margin-right: 40px;
 }
-a:hover{
-    text-decoration: underline;
-}
+
