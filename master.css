@@ -38,6 +38,12 @@ a:hover{
 .b-cyan{
     background-color: hsl(207deg 52% 81%);
 }
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
 
 .w-100{
     width: 100%;
@@ -55,8 +61,6 @@ header{
     z-index: 23;
     line-height: 100px;
     position: fixed;
-
-  
 }
 header img{
     vertical-align: middle;
@@ -75,4 +79,25 @@ header ul li a{
 header ul li a.btn{
     margin-right: 40px;
 }
-
+.jumbotron{
+    padding-top: 150px;
+    width: 70vw;
+    margin: auto;
+}
+.jumbotron h1{
+    font-size: 78px;
+  
+}
+.jumbotron p{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.jumbotron a{
+    margin-top: 40px;
+}
+.jumbotron-content{
+    display: inline-block;
+}
+.jumbotron-img{
+    margin-top: 30px;
+}
