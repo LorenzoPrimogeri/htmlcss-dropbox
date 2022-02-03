@@ -140,6 +140,7 @@ header ul li a.btn{
     margin-right: 60px;
     width: calc(100% / 3 - 60px);
     border: 1px solid grey;
+    margin-bottom: 50px;
 }
 .top-label{
     text-align: center;
@@ -147,10 +148,13 @@ header ul li a.btn{
     padding: 10px 0px 10px 0px;
     border: 1px solid grey;
 }
+.top-label i{   
+  padding-right: 5px;
+}
 .c-label{
     width: 90%;
     margin: auto;
-    padding-bottom: 150px;
+    height: 95vh;
 }
 .label .l-profession{
     margin: 30px 0px 20px 0px;
@@ -172,7 +176,7 @@ header ul li a.btn{
 }
 .label ul li{
     margin: 0px 0px 20px 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .label ul li:before{
    padding-right: 3px;
@@ -220,15 +224,55 @@ header ul li a.btn{
     color: #0061ff;
     font-family: FontAwesome;
     padding-right: 3px;
-    
+  
 }
-.fix:before{
-    margin-left: -1.3em; 
-    padding-left: 1.3em;
+.under-label{
+    width: 95%;
+    border: 1px solid grey;
+    margin-bottom: 12%;
 }
-
-
-
-
-
+.u-label{
+    width: 95%;
+    margin: auto;  
+}
+.u-label h2{
+    margin: 30px 0px 20px 0px;
+}
+.u-label h3{
+    margin: 0px 0px 50px 0px;
+}
+.u-label span{
+    display: block;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.under-label a{
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    width: 31%;
+}
 /* finish trial-section */
+/* start content-section */
+.content{
+    width: 47%;  
+}
+.c-img{
+    margin-right: 6%;
+}
+.content img{
+    width: 100%;   
+}
+.content h1{
+    margin: 30px 0px 20px 0px;
+    line-height: 1.5;
+}
+.content p{
+    margin: 30px 0px 30px 0px;
+    font-size: 20px;
+}
+.content a{
+    border: 1px solid black;
+}
+
+/* finish content-section */
