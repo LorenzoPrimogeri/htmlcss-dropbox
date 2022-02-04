@@ -134,17 +134,17 @@ header ul li a.btn{
 /* start Jumbotron-section */
 
 .jumbotron{
-    padding-top: 150px;
+    padding-top: 8%;
 }
 .jumbotron h1{
     font-size: 78px; 
 }
 .jumbotron p{
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 8%;
+    margin-top: 8%;
 }
 .jumbotron a{
-    margin-top: 40px;
+    margin-top: 8%;
 }
 .jumbotron i{
     padding-bottom: 100px;
@@ -180,6 +180,8 @@ header ul li a.btn{
     border: 1px solid grey;
     margin-bottom: 50px;
     padding-bottom: 100px;
+    min-height: 1200px;
+    min-width: 324px;
 }
 .top-label{
     text-align: center;
