@@ -4,9 +4,10 @@
     content: "";
     display: table;
     clear: both;
+    font-family: 'Open Sans';
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
 }
 .btn{
     padding: 10px 20px;
@@ -49,17 +50,39 @@ a:hover{
 .b-cyan{
     background-color: hsl(207deg 52% 81%);
 }
+.b-green{
+    background-color:  hsl(113deg 39% 72%);
+}
+.b-redpurple{
+    background-color: hsl(336deg 85% 21%);
+}
+.b-lightblue{
+    background-color: hsl(197deg 100% 40%);
+}
+.b-red{
+    background-color: hsl(0deg 100% 55%);
+}
+.b-redblack{
+    background-color: hsl(351deg 100% 42%);
+}
+.b-heavenly{
+    background-color: hsl(207deg 52% 81%);
+}
+.b-blackblue{
+    background-color: hsl(228deg 82% 28%);
+}
+.b-yellow{
+    background-color: hsl(49deg 100% 59%);
+}
 .w-35{
     width: 35%;
 }
 .w-65{
     width: 65%;
 }
-
 .w-100{
     width: 100%;
 }
-
 /* content */
 *{
     margin: 0;
@@ -255,7 +278,8 @@ header ul li a.btn{
 /* finish trial-section */
 /* start content-section */
 .content{
-    width: 47%;  
+    width: 47%; 
+    margin-bottom: 10%; 
 }
 .c-img{
     margin-right: 6%;
@@ -276,3 +300,81 @@ header ul li a.btn{
 }
 
 /* finish content-section */
+/* start gallery section */
+.gallery h1{
+    font-size: 45px;
+}
+.g-box{
+    margin-right: 60px;
+    width: calc(100% / 3 - 60px);
+}
+.g-box img{
+    width: 100%;
+}
+.g-box h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 1.325;
+}
+.g-box p{
+    font-size: 15px;
+    margin-bottom: 40%; 
+    line-height: 1.6;
+    font-weight: 700;
+}
+/* finish gallery section */
+/* start square section  */
+/* start square-header section */
+.sponsor-header{
+    width: 54%;
+    margin-bottom: 5%;
+}
+.sponsor-header h1{
+    font-size: 45px;
+    margin-bottom: 2%;
+}
+.sponsor-header a{
+    font-size: 15px;
+    font-weight: 700;
+   
+}
+/* finish square-header section */
+.sponsor{
+    margin-bottom: 100px;
+    height: 40vh;
+}
+.sponsor .side{
+    width: 30%;
+   
+    height: 100%; 
+}
+.sponsor .middle{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+.sponsor .w-25{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.square{
+    position: absolute;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sponsor .side img{
+    width: 100%;
+}
+svg{
+    width: 100%;
+    fill: white;
+  }
+  .special{
+    width: 70%;
+    height: 24%;
+ }
+
+/* finish square section  */
