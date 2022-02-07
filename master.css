@@ -176,10 +176,8 @@ header ul li a.btn{
 .label{
     width: calc(100% / 3 - 20px);
     border: 1px solid grey;
-    margin-bottom: 50px;
-    padding-bottom: 100px;
-    min-height: 1200px;
-    min-width: 324px;
+    margin-bottom: 7%;
+    min-height: 1400px;
 }
 .top-label{
     text-align: center;
